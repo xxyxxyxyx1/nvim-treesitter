@@ -28,6 +28,7 @@
     </i>
   </p>
 </div>
+This fork is modified with a "-std=c99" in  `lua/nvim-treesitter/shell_command_selectors.lua` to make this usable on an old CentOS machine without the correct modern compiler (or the ability to install it). 
 
 The goal of `nvim-treesitter` is both to provide a simple and easy way to use the interface for [tree-sitter](https://github.com/tree-sitter/tree-sitter) in Neovim and to provide some basic functionality such as highlighting based on it:
 
