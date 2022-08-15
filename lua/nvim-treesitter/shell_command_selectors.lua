@@ -85,6 +85,7 @@ function M.select_compiler_args(repo, compiler)
       "-shared",
       "-Os",
       "-lstdc++",
+      "-std=c99",
     }
     if fn.has "win32" == 0 then
       table.insert(args, "-fPIC")
